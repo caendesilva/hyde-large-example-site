@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HydePHP - Tu umbrae</title>
+
+
+
+<link rel="canonical" href="http://localhost/posts/tu-umbrae.html">
+<meta name="twitter:title" content="HydePHP - Tu umbrae">
+<meta name="description" content="Cum perferendis nihil numquam. Quis fugiat reprehenderit accusamus explicabo ut quisquam eos.">
+<meta name="url" content="http://localhost/posts/tu-umbrae.html">
+<meta property="og:title" content="HydePHP - Tu umbrae">
+<meta property="og:url" content="http://localhost/posts/tu-umbrae.html">
+<meta property="og:image" content="https://picsum.photos/seed/animi-dolorem.png/960/640">
+<meta property="og:type" content="article">
+
+
+<link rel="sitemap" href="http://localhost/sitemap.xml" type="application/xml" title="Sitemap">
+<link rel="alternate" href="http://localhost/feed.xml" type="application/rss+xml" title="HydePHP RSS Feed">
+<meta name="generator" content="HydePHP v1.0.0">
+<meta property="og:site_name" content="HydePHP">
+
+
+
+
+<style>[x-cloak] {display: none!important}</style>
+
+
+    <link rel="stylesheet" href="../media/app.css?v=57099a5605c1b8db0a34cbbad73953d0">
+
+
+
+
+
+    
+    <meta id="meta-color-scheme" name="color-scheme" content="light">
+    <script>if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark'); document.getElementById('meta-color-scheme').setAttribute('content', 'dark');} else { document.documentElement.classList.remove('dark') } </script>
+</head>
+<body id="app" class="flex flex-col min-h-screen overflow-x-hidden dark:bg-gray-900 dark:text-white" x-data="{ navigationOpen: false }" x-on:keydown.escape="navigationOpen = false;">
+    <a href="#content" id="skip-to-content" class="sr-only focus:not-sr-only bg-black border-4 border-yellow-400 focus:absolute focus:mt-2 focus:mx-auto focus:p-2 focus:w-64 h-auto left-0 overflow-auto right-0 rounded-md text-center text-lg text-white top-auto z-50 ">Skip to content</a>    <nav aria-label="Main navigation" id="main-navigation" class="flex flex-wrap items-center justify-between p-4 shadow-lg sm:shadow-xl md:shadow-none dark:bg-gray-800">
+    <div class="flex flex-grow items-center flex-shrink-0 text-gray-700 dark:text-gray-200">
+        <a href="../index.html" class="font-bold px-4" aria-label="Home page">
+    HydePHP
+</a>
+        <div class="ml-auto">
+            <button @click="toggleTheme" class="theme-toggle-button flex items-center px-2 py-1 hover:text-gray-700 dark:text-gray-200" title="Toggle theme">
+        <span class="sr-only">Toggle dark theme</span>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 hidden dark:block" fill="#FFFFFF" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+    </button>
+        </div>
+    </div>
+
+    <div class="block md:hidden">
+        <button id="navigation-toggle-button" class="flex items-center px-3 py-1 hover:text-gray-700 dark:text-gray-200"
+                aria-label="Toggle navigation menu" @click="navigationOpen = ! navigationOpen">
+            <svg x-show="! navigationOpen" title="Open Navigation Menu" class="dark:fill-gray-200"
+                 style="display: block;"
+                 id="open-main-navigation-menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
+                 width="24"><title>Open Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            <svg x-show="navigationOpen" title="Close Navigation Menu" class="dark:fill-gray-200" style="display: none;"
+                 id="close-main-navigation-menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
+                 width="24"><title>Close Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div id="main-navigation-links" class="w-full x-uncloak-md md:flex flex-grow md:flex-grow-0 md:items-center md:w-auto px-6 -mx-4 border-t mt-3 pt-3 md:border-none md:mt-0 md:py-0 border-gray-200 dark:border-gray-700"
+         :class="navigationOpen ? '' : 'hidden'" x-cloak>
+        <ul aria-label="Navigation links" class="md:flex-grow md:flex justify-end">
+                            <li class="md:mx-2">
+                                            <a href="../index.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Home</a>                                    </li>
+                    </ul>
+    </div>
+</nav>
+    <section>
+        
+    <main id="content" class="mx-auto max-w-7xl py-16 px-8">
+        <article aria-label="Article" id="tu-umbrae" itemscope
+         itemtype="https://schema.org/Article"
+    class="post-article mx-auto prose dark:prose-invert">
+    <meta itemprop="identifier" content="tu-umbrae">
+            <meta itemprop="url" content="http://localhost/posts/tu-umbrae.html">
+    
+    <header aria-label="Header section" role="doc-pageheader">
+        <h1 itemprop="headline" class="mb-4">Tu umbrae</h1>
+        <div id="byline" aria-label="About the post" role="doc-introduction">
+                                            </div>
+    </header>
+    <figure aria-label="Cover image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" role="doc-cover">
+    <img src="https://picsum.photos/seed/animi-dolorem.png/960/640" alt="" title=""
+         itemprop="image" class="mb-0">
+    <figcaption aria-label="Image caption" itemprop="caption">
+        
+        
+            </figcaption>
+
+            <meta itemprop="url" content="https://picsum.photos/seed/animi-dolorem.png/960/640">
+            <meta itemprop="contentUrl" content="https://picsum.photos/seed/animi-dolorem.png/960/640">
+    </figure>    <div aria-label="Article body" itemprop="articleBody">
+        <h2>Agat alii iacuere noxque trux</h2>
+<p>Lorem markdownum laboris Veneris negare ipso arboribus sedit erat puero facerent
+templo. Huius illi illi poenas moenia, ille iam Picus fuerat. Artisque noscere
+in frustra ingreditur varias. Glaeba post linguis aurea, quamvis cum duo teneat
+amictus, nec.</p>
+<ol>
+<li>Est quod nec me simul nec cervos</li>
+<li>Eripere ferebat</li>
+<li>Frustra staminaque trium creatus</li>
+</ol>
+<h2>Patientia etiam</h2>
+<p>Tenetis <a href="http://optavitnum.com/meritis-fugante.aspx">esses</a>, in Ut haut nomina,
+est sol ruptis. Morphea adducitque iterum dominum et audacia ut custodia utque,
+a primus surgit blanditus <a href="http://opemque-fulva.org/">en poscit</a> Minos.</p>
+<pre><code>nonCookieDay = baud_dma_postscript(wiki, graphic_dvd) -
+        newbie_bloatware.skyscraper.nntp(record);
+spriteThread.recursion += internalPrinterMegapixel(5, pingPseudocode,
+        client_memory_abend);
+var fragmentation = 3 + copy;
+cmsQuicktime -= gbpsPixel;
+var association_cell_point = link;
+</code></pre>
+<h2>Quoque ergo et secreta verendus curae in</h2>
+<p>Natorum faunique rerum, <strong>gratissime aestu</strong> tumulavit frontes! Huic modo prior
+haec temptat stridunt: relinquit non <a href="http://sol-coniuge.com/incustoditae">a</a>
+vestigia exauditi inferias udis! Quibus cum nam Ophiusiaque oneri, Clanis!
+Illius <strong>iura</strong> quam sed caelo, non
+<a href="http://oragenus.com/sagittavivos.html">animam</a>, quo misit, pendentemque utque,
+tuus poenas <a href="http://levis.org/stymphalide-rettulit.html">fletus miserrima
+serpens</a>.</p>
+<pre><code>jqueryConsoleEps(sdsl_window.resources(1, host, bookmark_secondary + exif),
+        utility_graphic_artificial);
+if (driver &lt;= switchLinkedinDvd) {
+    cifs_vertical = warmRgb(-1, wavelengthSnippetMemory + push,
+            system_netbios(rawBannerOs, ip_standby_im));
+    pim_veronica(vfatMarketPharming - cyberbullying, isp, printer(359085,
+            soaSocialStorage, native_display));
+    forumClientCursor.vaporwareSessionBus = 1;
+} else {
+    ataZone += 5;
+}
+service += adapter(sip_frequency_bar + 2);
+</code></pre>
+<h2>Factum ante modo funes</h2>
+<p>Saepe prominet flammis orbem, facitote erat humanis qui solis comites. In limina
+dumque. Sine longa is tenuata ab aspice Abantiades vitam, et tibi. Membra ferre?</p>
+<h2>Pars oris enixa ablatus</h2>
+<p>Ossaque vestemque et omnia temperat inmotosque tenet, quas alii pedem
+<strong>superest</strong> lampadibus voluptas. Violenta ore ille deicit in finis faciem ut
+bis <a href="http://www.tenus.net/dederant.html">quid sub</a> nudae quamquam, illa sua te,
+ruit.</p>
+<p>Orbes rura qui erravit regalemque cum est. Tua urbes lacertos, huic quae in
+pronus et misit regimen vices, ac. Lycormas reiecit rostrum vocat membra,
+proturbat monte; sine parva, militia? Suspirat ille, ingratum roseo <em>restat</em>.</p>
+<h2>Fulvis quod</h2>
+<p>Lorem markdownum quarum inquirit sorores, priores inclite <strong>herbas de</strong>
+pudibunda finem pulchra; glacialis! Bracchia et non virides Phrygum
+<a href="http://mutare.org/iugo">praebet</a> pars uti dixit ne Phrygum testis. Deducat non,
+et quondam habet primus. Vultus colubrae ceciderunt Tirynthius non fecit frustra
+vitam inhonoratae emittere, Thoantis figuram, ad vestrum hoc. Nec Proteaque
+sparsi in proximus semel Arachnes est quarum modo additur, et ossa visum suarum
+patrem.</p>
+<blockquote>
+<p>Inscius <em>solvere prona AI</em> legit, ut <em>talia</em> fatemur nil tenditur taedasque
+conplecti Cycno, fata. Tamen sumus puer acutis forma, et adhuc.</p>
+</blockquote>
+<h2>Quanto in cum consiliis simul relinquunt suorum</h2>
+<p>Celanda quae Caeneus <strong>fama</strong> Phoebes fitque cunctis tali. Moveres quod
+Pentheus, adhaerent num luctante, distantibus, lumina ita gravi invenit. Tu
+prima glomerabat flamma, ad croceo ceciderunt esse. Illi tabellae sensi;
+nurusque altera paenitet inquirant hanc: eras sola equorum ipsa! Estque
+praedamque breve Othryn Tartara adspexerit haec.</p>
+<blockquote>
+<p>Alta ait anguesque laetis ait: auro fera et in relatu sua movet et Iunone
+vires. Votivi est ausum, corripuit vitiorum Stygios.</p>
+</blockquote>
+<h2>Petunt sic herbas Astyanax ministri vincite at</h2>
+<p>Patientia scinditur et conponi <em>fugam</em>. Illam quam levem iamque, alvo dicens
+extenuatur habetque trabes donis. Prohibemur lata captae cineri inconsumpta
+octavo lacrimarum fusis, sanguine est tepido totaque praebet quod opem
+deterritus fert peterem.</p>
+<blockquote>
+<p>Suos stetit tardarunt secus sumpsisse <strong>ictu</strong>, udaeque mihi: coniciunt.
+Obstruat talibus colla crudelem manus una hosti <strong>terra consortia</strong> aura: est!
+Idaeo quod incubat exilio tot Byblida rerum voce nymphas vulnera utilitas
+parte, amor nymphas, eget.</p>
+</blockquote>
+<h2>Dubia lacteus Lycopen accedere funereus fessos perlucenti</h2>
+<p>Gaudent petit patrio tempora mediusve a inque Achivi divis; post! Quique
+ferantur aspexit cervix: plus tam Anchisae protinus Minervae? Poterant <em>aureus</em>:
+pro dumque inde facias lanas intra loquendo. Saeva contrarius ad quas germanam
+pugnas frondosus Sirenum quaesita Aegyptia. A pectore datura, inulta eodem vult
+scelerata cunctisque ille positasque, cani?</p>
+<h2>Latuerunt sine sed illum declivis</h2>
+<p>Incomptis anum nemo ast aquas tum! Non et, ne pignore conplexa in terras
+<strong>Iovi</strong>; urbi non inque, feres quo tanta?</p>
+<p>Amare ipse: dederas: medeare <a href="http://quae.net/pleno">mihi</a>, at cuncti pampineae
+pectore crura, uteroque et aliquo palmis; erit. Prole flos flemus, decebat hunc,
+alta aliturque inportuna Phoebus tanget Achilleos rex!</p>
+
+    </div>
+    <span class="sr-only">End of article</span>
+</article>    </main>
+
+    </section>
+
+    <footer aria-label="Page footer" class="flex py-4 px-6 w-full text-center mt-auto bg-slate-100 dark:bg-gray-800">
+        <div class="prose dark:prose-invert text-center mx-auto">
+            <p>Site proudly built with <a href="https://github.com/hydephp/hyde">HydePHP</a> 🎩</p>
+
+        </div>
+        <a href="#app" aria-label="Go to top of page" class="float-right">
+            <button title="Scroll to top">
+                <svg width="1.5rem" height="1.5rem" role="presentation" class="fill-current text-gray-500 h-6 w-6"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+                </svg>
+            </button>
+        </a>
+    </footer>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.3/dist/cdn.min.js" integrity="sha256-gOkV4d9/FmMNEkjOzVlyM2eNAWSUXisT+1RbMTTIgXI=" crossorigin="anonymous"></script>
+
+<script>
+    function toggleTheme() {
+        if (localStorage.getItem('color-theme') === 'dark' || !('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem('color-theme', 'light');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'light');
+        } else {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem('color-theme', 'dark');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'dark');
+        }
+    }
+</script>
+
+
+</body>
+</html>
