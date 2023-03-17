@@ -391,7 +391,7 @@ return [
     |
     */
 
-    'default_color_scheme' => 'light',
+    'default_color_scheme' => 'dark',
 
     /*
     |--------------------------------------------------------------------------
