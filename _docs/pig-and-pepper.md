@@ -1,7 +1,8 @@
 ---
-priority: 160
-category: Chapters
-label: Pig and Pepper
+navigation:
+    priority: 160
+    category: Chapters
+    label: Pig and Pepper
 ---
 
 # Chapter VI - Pig and Pepper

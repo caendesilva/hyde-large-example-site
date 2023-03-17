@@ -1,8 +1,9 @@
 ---
 title: Alice's Adventures in Wonderland
-category: Introduction
-priority: 100
-label: Cover Page
+navigation:
+    category: Introduction
+    priority: 100
+    label: Cover Page
 ---
 
 <h1 align="center" class="mb-0">Alice's Adventures in Wonderland</h1>

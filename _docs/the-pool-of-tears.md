@@ -1,7 +1,8 @@
 ---
-priority: 120
-category: Chapters
-label: The Pool of Tears
+navigation:
+    priority: 120
+    category: Chapters
+    label: The Pool of Tears
 ---
 
 # Chapter II - The Pool of Tears

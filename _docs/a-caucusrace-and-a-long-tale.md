@@ -1,7 +1,8 @@
 ---
-priority: 130
-category: Chapters
-label: A Caucus-Race and a Long Tale
+navigation:
+    priority: 130
+    category: Chapters
+    label: A Caucus-Race and a Long Tale
 ---
 
 # Chapter III - A Caucus-Race and a Long Tale

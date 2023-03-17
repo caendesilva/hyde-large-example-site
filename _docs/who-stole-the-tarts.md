@@ -1,7 +1,8 @@
 ---
-priority: 210
-category: Chapters
-label: Who Stole the Tarts?
+navigation:
+    priority: 210
+    category: Chapters
+    label: Who Stole the Tarts?
 ---
 
 # Chapter XI - Who Stole the Tarts?

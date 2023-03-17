@@ -1,7 +1,8 @@
 ---
-priority: 170
-category: Chapters
-label: A Mad Tea-Party
+navigation:
+    priority: 170
+    category: Chapters
+    label: A Mad Tea-Party
 ---
 
 # Chapter VII - A Mad Tea-Party

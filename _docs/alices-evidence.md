@@ -1,7 +1,8 @@
 ---
-priority: 220
-category: Chapters
-label: Alice's Evidence
+navigation:
+    priority: 220
+    category: Chapters
+    label: Alice's Evidence
 ---
 
 # Chapter XII - Alice's Evidence

@@ -1,7 +1,8 @@
 ---
-priority: 190
-category: Chapters
-label: The Mock Turtle's Story
+navigation:
+    priority: 190
+    category: Chapters
+    label: The Mock Turtle's Story
 ---
 
 # Chapter IX - The Mock Turtle's Story

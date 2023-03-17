@@ -1,7 +1,8 @@
 ---
-priority: 140
-category: Chapters
-label: The Rabbit Sends in a Little Bill
+navigation:
+    priority: 140
+    category: Chapters
+    label: The Rabbit Sends in a Little Bill
 ---
 
 # Chapter IV - The Rabbit Sends in a Little Bill

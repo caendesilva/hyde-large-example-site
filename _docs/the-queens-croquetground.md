@@ -1,7 +1,8 @@
 ---
-priority: 180
-category: Chapters
-label: The Queen's Croquet-Ground
+navigation:
+    priority: 180
+    category: Chapters
+    label: The Queen's Croquet-Ground
 ---
 
 # Chapter VIII - The Queen's Croquet-Ground

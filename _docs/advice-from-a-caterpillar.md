@@ -1,7 +1,8 @@
 ---
-priority: 150
-category: Chapters
-label: Advice from a Caterpillar
+navigation:
+    priority: 150
+    category: Chapters
+    label: Advice from a Caterpillar
 ---
 
 # Chapter V - Advice from a Caterpillar

@@ -1,7 +1,8 @@
 ---
-priority: 110
-category: Chapters
-label: Down the Rabbit-Hole
+navigation:
+    priority: 110
+    category: Chapters
+    label: Down the Rabbit-Hole
 ---
 
 # Chapter I - Down the Rabbit-Hole

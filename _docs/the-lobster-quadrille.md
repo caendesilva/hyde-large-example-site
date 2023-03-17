@@ -1,7 +1,8 @@
 ---
-priority: 200
-category: Chapters
-label: The Lobster Quadrille
+navigation:
+    priority: 200
+    category: Chapters
+    label: The Lobster Quadrille
 ---
 
 # Chapter X - The Lobster Quadrille
