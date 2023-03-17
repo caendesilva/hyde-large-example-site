@@ -6,6 +6,7 @@ use Hyde\Hyde;
 use Hyde\Foundation\HydeKernel;
 use Hyde\Support\Models\Redirect;
 use Illuminate\Support\ServiceProvider;
+use Hyde\Framework\Features\Navigation\NavigationData;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,7 +24,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
        Hyde::kernel()->booting(function (HydeKernel $kernel) {
-           $kernel->pages()->addPage(new Redirect('posts.html', 'posts/', false));
+           $kernel->pages()->addPage(tap(new Redirect('posts.html', 'posts/', false), function (Redirect $page) {
+               $page->navigation = new NavigationData('', 0, true);
+           }));
        });
     }
 }
