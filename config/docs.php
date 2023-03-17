@@ -28,7 +28,7 @@ return [
         'header' => env('SITE_NAME', 'HydePHP').' Docs',
 
         // When using a grouped sidebar, should the groups be collapsible?
-        'collapsible' => true,
+        'collapsible' => false,
 
         // Should the sidebar footer be shown?
         'footer' => true,
