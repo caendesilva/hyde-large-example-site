@@ -27,6 +27,11 @@
             "path": "_pages\/basic-blade-page.blade.php",
             "pageClass": "Hyde\\Pages\\BladePage"
         },
+        "_pages\/index.blade.php": {
+            "name": "index.blade.php",
+            "path": "_pages\/index.blade.php",
+            "pageClass": "Hyde\\Pages\\BladePage"
+        },
         "_pages\/posts.blade.php": {
             "name": "posts.blade.php",
             "path": "_pages\/posts.blade.php",
@@ -35,11 +40,6 @@
         "_pages\/basic-markdown-page.md": {
             "name": "basic-markdown-page.md",
             "path": "_pages\/basic-markdown-page.md",
-            "pageClass": "Hyde\\Pages\\MarkdownPage"
-        },
-        "_pages\/index.md": {
-            "name": "index.md",
-            "path": "_pages\/index.md",
             "pageClass": "Hyde\\Pages\\MarkdownPage"
         },
         "_pages\/about\/atque-illic.md": {
@@ -684,6 +684,22 @@
             },
             "title": "Basic Blade Page"
         },
+        "_pages\/index.blade.php": {
+            "class": "Hyde\\Pages\\BladePage",
+            "identifier": "index",
+            "routeKey": "index",
+            "matter": {
+                "title": "Home"
+            },
+            "metadata": {},
+            "navigation": {
+                "label": "Home",
+                "priority": 0,
+                "hidden": false,
+                "group": null
+            },
+            "title": "Home"
+        },
         "_pages\/posts.blade.php": {
             "class": "Hyde\\Pages\\BladePage",
             "identifier": "posts",
@@ -715,22 +731,6 @@
                 "group": null
             },
             "title": "Basic Markdown Page"
-        },
-        "_pages\/index.md": {
-            "class": "Hyde\\Pages\\MarkdownPage",
-            "identifier": "index",
-            "routeKey": "index",
-            "matter": {
-                "title": "Home"
-            },
-            "metadata": {},
-            "navigation": {
-                "label": "Home",
-                "priority": 0,
-                "hidden": false,
-                "group": null
-            },
-            "title": "Home"
         },
         "_pages\/about\/atque-illic.md": {
             "class": "Hyde\\Pages\\MarkdownPage",
@@ -3907,6 +3907,15 @@
                 "identifier": "basic-blade-page"
             }
         },
+        "index": {
+            "routeKey": "index",
+            "sourcePath": "_pages\/index.blade.php",
+            "outputPath": "index.html",
+            "page": {
+                "class": "Hyde\\Pages\\BladePage",
+                "identifier": "index"
+            }
+        },
         "posts": {
             "routeKey": "posts",
             "sourcePath": "_pages\/posts.blade.php",
@@ -3923,15 +3932,6 @@
             "page": {
                 "class": "Hyde\\Pages\\MarkdownPage",
                 "identifier": "basic-markdown-page"
-            }
-        },
-        "index": {
-            "routeKey": "index",
-            "sourcePath": "_pages\/index.md",
-            "outputPath": "index.html",
-            "page": {
-                "class": "Hyde\\Pages\\MarkdownPage",
-                "identifier": "index"
             }
         },
         "about\/atque-illic": {
