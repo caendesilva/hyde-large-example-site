@@ -24,7 +24,7 @@
             <dl>
                 @foreach($groups as $group => $pages)
                     <dt><strong>{{ $group }}</strong></dt>
-                    <dd>
+                    <dd class="mb-4">
                         <ul>
                             @foreach($pages as $page)
                                 <li><a href="{{ $page->getRoute() }}">{{ $page->title }}</a></li>
