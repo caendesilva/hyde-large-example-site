@@ -3,7 +3,7 @@
 @php($title = 'Home')
 
     <main id="content" class="mx-auto max-w-7xl py-16 px-8 prose dark:prose-invert">
-        <h1 class="text-center">A <a href="https://github.com/hydephp/hyde">HydePHP</a> site with lots of content</h1>
+        <h1 class="text-center">A HydePHP site with lots of content</h1>
         <article class="mx-auto max-w-3xl">
             <p class="lead text-center">
                 This is a testing site for <a href="https://github.com/hydephp/hyde">HydePHP</a>. It has a lot of content to test various functionality.
