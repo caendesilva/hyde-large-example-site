@@ -3,18 +3,13 @@
 <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hyde Example Site - Praecipiet ancora exurunt palmae ea turis paulatim</title>
+<title>Hyde Example Site - Basic Blade Page</title>
 
 
 
-<link rel="canonical" href="http://localhost/posts/praecipiet-ancora-exurunt-palmae-ea-turis-paulatim.html">
-<meta name="twitter:title" content="Hyde Example Site - Praecipiet ancora exurunt palmae ea turis paulatim">
-<meta name="description" content="Nobis porro rerum error omnis adipisci. Adipisci eligendi eum eum et et. Assumenda sunt quibusdam rerum quis labore accusamus delectus modi.">
-<meta name="url" content="http://localhost/posts/praecipiet-ancora-exurunt-palmae-ea-turis-paulatim.html">
-<meta property="og:title" content="Hyde Example Site - Praecipiet ancora exurunt palmae ea turis paulatim">
-<meta property="og:url" content="http://localhost/posts/praecipiet-ancora-exurunt-palmae-ea-turis-paulatim.html">
-<meta property="og:image" content="https://picsum.photos/seed/suscipit-laborum.jpg/960/640">
-<meta property="og:type" content="article">
+<link rel="canonical" href="http://localhost/basic-blade-page.html">
+<meta name="twitter:title" content="Hyde Example Site - Basic Blade Page">
+<meta property="og:title" content="Hyde Example Site - Basic Blade Page">
 
 
 <link rel="sitemap" href="http://localhost/sitemap.xml" type="application/xml" title="Sitemap">
@@ -41,7 +36,7 @@
 <body id="app" class="flex flex-col min-h-screen overflow-x-hidden dark:bg-gray-900 dark:text-white" x-data="{ navigationOpen: false }" x-on:keydown.escape="navigationOpen = false;">
     <a href="#content" id="skip-to-content" class="sr-only focus:not-sr-only bg-black border-4 border-yellow-400 focus:absolute focus:mt-2 focus:mx-auto focus:p-2 focus:w-64 h-auto left-0 overflow-auto right-0 rounded-md text-center text-lg text-white top-auto z-50 ">Skip to content</a>    <nav aria-label="Main navigation" id="main-navigation" class="flex flex-wrap items-center justify-between p-4 shadow-lg sm:shadow-xl md:shadow-none dark:bg-gray-800">
     <div class="flex flex-grow items-center flex-shrink-0 text-gray-700 dark:text-gray-200">
-        <a href="../index.html" class="font-bold px-4" aria-label="Home page">
+        <a href="index.html" class="font-bold px-4" aria-label="Home page">
     Hyde Example Site
 </a>
         <div class="ml-auto">
@@ -76,13 +71,13 @@
          :class="navigationOpen ? '' : 'hidden'" x-cloak>
         <ul aria-label="Navigation links" class="md:flex-grow md:flex justify-end">
                             <li class="md:mx-2">
-                                            <a href="../index.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Home</a>                                    </li>
+                                            <a href="index.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Home</a>                                    </li>
                             <li class="md:mx-2">
-                                            <a href="../posts.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Latest Posts</a>                                    </li>
+                                            <a href="posts.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Latest Posts</a>                                    </li>
                             <li class="md:mx-2">
-                                            <a href="../basic-blade-page.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Basic Blade Page</a>                                    </li>
+                                            <a href="basic-blade-page.html" aria-current="page" class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100 border-l-4 border-indigo-500 md:border-none font-medium -ml-6 pl-5 md:ml-0 md:pl-0 bg-gray-100 dark:bg-gray-800 md:bg-transparent dark:md:bg-transparent">Basic Blade Page</a>                                    </li>
                             <li class="md:mx-2">
-                                            <a href="../basic-markdown-page.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Basic Markdown Page</a>                                    </li>
+                                            <a href="basic-markdown-page.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Basic Markdown Page</a>                                    </li>
                             <li class="md:mx-2">
                                             <div class="dropdown-container relative" x-data="{ open: false }">
     <button class="dropdown-button block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100"
@@ -93,21 +88,21 @@
     <div class="dropdown absolute shadow-lg bg-white dark:bg-gray-700 z-50 right-0" :class="open ? '' : 'hidden'">
         <ul class="dropdown-items px-3 py-2">
                                                 <li class="whitespace-nowrap">
-                        <a href="../about/atque-illic.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Atque Illic</a>                    </li>
+                        <a href="about/atque-illic.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Atque Illic</a>                    </li>
                                     <li class="whitespace-nowrap">
-                        <a href="../about/cet-pectore.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Cet Pectore</a>                    </li>
+                        <a href="about/cet-pectore.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Cet Pectore</a>                    </li>
                                     <li class="whitespace-nowrap">
-                        <a href="../about/est-inridet.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Est inridet</a>                    </li>
+                        <a href="about/est-inridet.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Est inridet</a>                    </li>
                                     <li class="whitespace-nowrap">
-                        <a href="../about/et-thaumas.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Et Thaumas</a>                    </li>
+                        <a href="about/et-thaumas.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Et Thaumas</a>                    </li>
                                     <li class="whitespace-nowrap">
-                        <a href="../about/litora-atque.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Litora atque</a>                    </li>
+                        <a href="about/litora-atque.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Litora atque</a>                    </li>
                                     <li class="whitespace-nowrap">
-                        <a href="../about/nostri-ut-exit.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Nostri Ut Exit</a>                    </li>
+                        <a href="about/nostri-ut-exit.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Nostri Ut Exit</a>                    </li>
                                     <li class="whitespace-nowrap">
-                        <a href="../about/quid-odores.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Quid Odores</a>                    </li>
+                        <a href="about/quid-odores.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Quid Odores</a>                    </li>
                                     <li class="whitespace-nowrap">
-                        <a href="../about/tu-umbrae.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Tu Umbrae</a>                    </li>
+                        <a href="about/tu-umbrae.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Tu Umbrae</a>                    </li>
                                     </ul>
     </div>
 </div>                                    </li>
@@ -116,63 +111,70 @@
 </nav>
     <section>
         
-    <main id="content" class="mx-auto max-w-7xl py-16 px-8">
-        <article aria-label="Article" id="praecipiet-ancora-exurunt-palmae-ea-turis-paulatim" itemscope
-         itemtype="https://schema.org/Article"
-    class="post-article mx-auto prose dark:prose-invert">
-    <meta itemprop="identifier" content="praecipiet-ancora-exurunt-palmae-ea-turis-paulatim">
-            <meta itemprop="url" content="http://localhost/posts/praecipiet-ancora-exurunt-palmae-ea-turis-paulatim.html">
-    
-    <header aria-label="Header section" role="doc-pageheader">
-        <h1 itemprop="headline" class="mb-4">Praecipiet ancora exurunt palmae ea turis paulatim</h1>
-        <div id="byline" aria-label="About the post" role="doc-introduction">
-                                            </div>
-    </header>
-    <figure aria-label="Cover image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" role="doc-cover">
-    <img src="https://picsum.photos/seed/suscipit-laborum.jpg/960/640" alt="" title=""
-         itemprop="image" class="mb-0">
-    <figcaption aria-label="Image caption" itemprop="caption">
-        
-        
-            </figcaption>
+<main class="mx-auto max-w-7xl py-16 px-8">
+    <h1 class="text-center text-3xl font-bold">Basic Blade Page</h1>
 
-            <meta itemprop="url" content="https://picsum.photos/seed/suscipit-laborum.jpg/960/640">
-            <meta itemprop="contentUrl" content="https://picsum.photos/seed/suscipit-laborum.jpg/960/640">
-    </figure>    <div aria-label="Article body" itemprop="articleBody">
-        <h2>Haud radix virgine tellus</h2>
-<p>Lorem markdownum in ultima, et ipso <strong>robore commentaque galea</strong>; nomenque! Hac
-genetrix Iovis superi professa, olor, <a href="http://tardis.com/">indulgere hausi</a>,
-suam inque.</p>
-<ul>
-<li>Mihi putat amoris</li>
-<li>Bipenniferumque facerent et regna sua Asopida</li>
-<li>Genuit blandis est Sabinae etiam atria super</li>
-<li>Clipeum tendens dementer flavescere cedendo tellus</li>
-<li>Quem illa nocent vestes</li>
-</ul>
-<p>Lato nimium dies hasta, arma. Sua tibi undecimus obstantia voce magicaeque quod
-lana cur <strong>nati Saturnia</strong>.</p>
-<h2>Digitos exiguus de Morphea vulnus et erit</h2>
-<p>Miseros repulsus est fingit unda enim certaminis agros, hinc loquar dextroque
-defendere genetrixque et vixque. Incursu auderet Semiramio; arabat castique et
-saepe <em>et</em> ora simplex plus.</p>
-<p>Ponat via creatas ignes suspenditque, velis ad tectus adspicit convertit
-coniugis? Videri est avem pars! <strong>Sua agrestis</strong> nam murram, auro pro inculpata
-ad numquam <em>furialiaque alter et</em> nova <em>crines videbit terror</em>? Hippomene
-ducitur Lavini formidine palmis pariterque spectatae carmine!</p>
-<ol>
-<li>Voce poni seditio saepe instare saxea vultus</li>
-<li>Conciderant modo tumefecit Iovis haerebat ficti obstitit</li>
-<li>Hiberno nova</li>
-<li>Nepotis relatis</li>
-</ol>
-<p>Tabo rerum illa: cum <a href="http://turis.org/">non colores</a> membra suam est, ieiunia
-diva? Vittas ergo, prope arma, cum sonuit supero, pavidus: rabidi. Pro munus hic
-carinae sermone; quo ubi indicat soror, numina.</p>
+    <article class="prose dark:prose-invert mt-8 mx-auto">
+        <h2 id="tectaque-ab-stipite-victarum-iuvenis-at-rediere">Tectaque ab stipite victarum iuvenis at rediere</h2>
+        <p>Lorem markdownum discedite faveant deum, talis ibi praecordiaque <strong>poena</strong>;
+            indicere. Condita horrore ille spretarumque caput discordia <em>tectam levibus</em>
+            aetate odorato me. Tellure carinas et vidit et ademit quae, tendensque,
+            fratribus. Agricolis feror, <em>properata volitare</em>: sonat vincula. Nunc non
+            pependit quascumque totidem totiens aderat qui concipiunt probatur: habuere esse
+            accede ultro et adnuit operum.</p>
+        <blockquote>
+            <p>Hiemalibus ut suasit Cycnus est guttis quascumque conubia circumvelatur fluit
+                pugnantem scelus Nyseus. Mihi tulit sed versuta victor, iuvenes tu praesepibus
+                talia temporis scopulum coniunx nimiumque. Profatur <em>fugacibus</em> area
+                Taygetenque pati vestes miserae: non, data rapit lapides quondam, sit igne!
+                Saepe est non inque ducite tuum Phaethon pugna torique Melaneus, altis desere
+                dentibus fama indicii in recentes. Epulis gradu videbit; ego voverat primo,
+                armentaque Myrrha Hymenaeus, amatam.</p>
+        </blockquote>
+        <h2 id="linguae-ut-aristas-fluxit-bracchia-si-fregit">Linguae ut aristas fluxit bracchia si fregit</h2>
+        <p>Huius retentas, me recentes accipis blandarum imperium temptat domum? Neve arma
+            Myrrhae potes, crocique arcum refert rursus multi qua illa amplecti. Generi
+            diligis. Modo barba, ubi de sanguine excita, nunc sine plagis visam.</p>
+        <pre><code>icf += sampleTrackback * 4 + bootBoot + nameDesignSprite;
+joystick -= 3;
+if (scanner + dithering &lt; -5) {
+    unfriend_json(ethernet, overwriteMenu);
+    biometrics(5, qwerty, 1);
+} else {
+    screenshot_compiler_font(toslink_linkedin_default / io);
+}
+matrix_wysiwyg_default(heuristic.balance_adc_nosql(
+        kilobyteSoftwareInternet));
+multiprocessingOdbcExecutable.processorCutSsid += copy;
+</code></pre>
+        <h2 id="iuvenaliter-arduus">Iuvenaliter arduus</h2>
+        <p>Loquarque et peregit! Ratae priorum, in ipse Pelasgae superosque neve ardentibus
+            patres aliquid, clavae confundimur manusque ventura. Movere fuit dote harenis
+            meminisse nate sonumque, posito requiem, quoque munera tamen et pectore vices:
+            palmis. Gestae Bootes fatus nihil fortissimus mutati tenuisse carchesia mihi.</p>
+        <ol>
+            <li>Est deorum amore aper necem iam quicquam</li>
+            <li>Tangamque observata et unda vietum herbis dextra</li>
+            <li>Tulere temporis</li>
+            <li>Titania ferre parvos</li>
+            <li>Candidus venae</li>
+        </ol>
+        <h2 id="spectat-nostri">Spectat nostri</h2>
+        <p>Tam pictis salutem indignante ungues. Modo videre unda est ab non hanc rabieque
+            dolor quae suos quorum silvas Cephison et frustra, citharam. Nocte leti ictibus
+            flammaque quippe; Peleus, mira! Et lupus relictum tendit, est nudos vinctoque.</p>
+        <ul>
+            <li>Qui qua</li>
+            <li>Capitolia fuit delere</li>
+            <li>Illa inlisit</li>
+            <li>Oris vivo</li>
+        </ul>
+        <p>Et auro, guttae inspirare prole in nec urna requies Stygius duraque latuerunt,
+            vellere? Ne <a href="http://www.deos-abeunt.net/">iuga</a>, quod suo o orbatura movebere,
+            inquit quod! Cornibus et mihi non muros, Pallantias subiecta suis?</p>
 
-    </div>
-    <span class="sr-only">End of article</span>
-</article>    </main>
+    </article>
+</main>
 
     </section>
 
