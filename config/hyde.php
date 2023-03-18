@@ -311,6 +311,7 @@ return [
             'index' => 0,
             'posts' => 10,
             'docs/index' => 100,
+            '404' => 1000,
         ],
 
         // In case you want to customize the labels for the menu items, you can do so here.
