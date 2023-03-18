@@ -28,7 +28,9 @@ class AppServiceProvider extends ServiceProvider
                 $page->navigation = new NavigationData('Json Version', 1000, true);
             }));
 
-           $kernel->pages()->addPage(new Redirect('docs/index.html', 'docs/cover.html', false));
+           $kernel->pages()->addPage(tap(new Redirect('docs/index.html', 'docs/cover.html', false), function (Redirect $page): void {
+               $page->navigation = new NavigationData('Documentation', 1000, true);
+           }));
        });
     }
 }
