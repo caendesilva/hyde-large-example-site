@@ -12,11 +12,27 @@
 
         <section class="mx-auto max-w-3xl py-8 prose dark:prose-invert">
             <h2>Sitemap</h2>
-            <ul>
-                @foreach (\Hyde\Hyde::pages() as $page)
-                    <li><a href="{{ $page->getRoute() }}">{{ $page->title }}</a></li>
+
+            <?php
+                $pages = \Hyde\Hyde::pages();
+
+                $groups = $pages->groupBy(function ($page) {
+                    return $page->navigation->group ?? 'Other';
+                });
+            ?>
+
+            <dl>
+                @foreach($groups as $group => $pages)
+                    <dt><strong>{{ $group }}</strong></dt>
+                    <dd>
+                        <ul>
+                            @foreach($pages as $page)
+                                <li><a href="{{ $page->getRoute() }}">{{ $page->title }}</a></li>
+                            @endforeach
+                        </ul>
+                    </dd>
                 @endforeach
-            </ul>
+            </dl>
         </section>
     </main>
 
