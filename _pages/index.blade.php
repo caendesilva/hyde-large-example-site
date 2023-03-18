@@ -30,8 +30,8 @@
                     <dt><strong>{{ $group }}</strong></dt>
                     <dd class="mb-4">
                         <ul>
-                            @foreach($pages as $page)
-                                <li><a href="{{ $page->getRoute() }}">{{ $page->title }}</a></li>
+                            @foreach($pages as $pageItem)
+                                <li><a href="{{ $pageItem->getRoute() }}">{{ $pageItem->title }}</a></li>
                             @endforeach
                         </ul>
                     </dd>
