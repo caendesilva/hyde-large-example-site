@@ -2,7 +2,7 @@
 @section('content')
 @php($title = 'Home')
 
-    <main id="content" class="mx-auto max-w-7xl py-16 px-8">
+    <main id="content" class="mx-auto max-w-7xl py-16 px-8 prose dark:prose-invert">
         <h1 class="text-center text-3xl font-bold">A <a href="https://github.com/hydephp/hyde">HydePHP</a> site with lots of content</h1>
         <article class="mx-auto max-w-3xl mt-8 prose dark:prose-invert">
             <p class="lead text-center">
@@ -10,7 +10,7 @@
             </p>
         </article>
 
-        <section class="mx-auto max-w-3xl py-8 prose dark:prose-invert">
+        <section class="mx-auto max-w-3xl py-8">
             <h2>Sitemap</h2>
 
             <?php
