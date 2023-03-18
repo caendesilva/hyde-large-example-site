@@ -654,6 +654,20 @@
         }
     },
     "pages": {
+        "json": {
+            "class": "Hyde\\Support\\Models\\Redirect",
+            "identifier": "json",
+            "routeKey": "json",
+            "matter": [],
+            "metadata": {},
+            "navigation": {
+                "label": "Json Version",
+                "priority": 1000,
+                "hidden": true,
+                "group": null
+            },
+            "title": "Json"
+        },
         "_pages\/404.blade.php": {
             "class": "Hyde\\Pages\\BladePage",
             "identifier": "404",
@@ -3889,6 +3903,15 @@
         }
     },
     "routes": {
+        "json": {
+            "routeKey": "json",
+            "sourcePath": "json",
+            "outputPath": "json.html",
+            "page": {
+                "class": "Hyde\\Support\\Models\\Redirect",
+                "identifier": "json"
+            }
+        },
         "404": {
             "routeKey": "404",
             "sourcePath": "_pages\/404.blade.php",
