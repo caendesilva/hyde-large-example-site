@@ -675,10 +675,10 @@
             "matter": [],
             "metadata": {},
             "navigation": {
-                "label": "Docs",
-                "priority": 100,
-                "hidden": false,
-                "group": "docs"
+                "label": "Documentation",
+                "priority": 1000,
+                "hidden": true,
+                "group": null
             },
             "title": "Docs"
         },
