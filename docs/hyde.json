@@ -690,7 +690,7 @@
             "metadata": {},
             "navigation": {
                 "label": "404",
-                "priority": 999,
+                "priority": 1000,
                 "hidden": true,
                 "group": null
             },
