@@ -16,6 +16,10 @@
             <?php
                 $pages = \Hyde\Hyde::pages();
 
+                $pages = $pages->sortBy(function (\Hyde\Pages\Concerns\HydePage $page) {
+                    return $page->navigationMenuPriority();
+                });
+
                 $groups = $pages->groupBy(function (\Hyde\Pages\Concerns\HydePage $page) {
                     return \Hyde\Hyde::makeTitle(class_basename($page)) . 's';
                 });
