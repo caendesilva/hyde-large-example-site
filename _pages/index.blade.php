@@ -18,6 +18,10 @@
 
                 $groups = $pages->groupBy(function (\Hyde\Pages\Concerns\HydePage $page) {
                     $group = $page->navigation->group ?? 'Other';
+                    if ($page instanceof \Hyde\Pages\DocumentationPage)
+                    {
+                        $group = 'Documentation' . ($group ? ' - ' . $group : '');
+                    }
                     return $group;
                 });
             ?>
