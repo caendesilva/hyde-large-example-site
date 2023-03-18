@@ -17,7 +17,7 @@
                 $pages = \Hyde\Hyde::pages();
 
                 $groups = $pages->groupBy(function (\Hyde\Pages\Concerns\HydePage $page) {
-                    return $page->navigation->group ?? 'Other';
+                    return \Hyde\Hyde::makeTitle(class_basename($page)) . 's';
                 });
             ?>
 
