@@ -668,6 +668,20 @@
             },
             "title": "Json"
         },
+        "docs\/index": {
+            "class": "Hyde\\Support\\Models\\Redirect",
+            "identifier": "docs\/index",
+            "routeKey": "docs\/index",
+            "matter": [],
+            "metadata": {},
+            "navigation": {
+                "label": "Docs",
+                "priority": 100,
+                "hidden": false,
+                "group": "docs"
+            },
+            "title": "Docs"
+        },
         "_pages\/404.blade.php": {
             "class": "Hyde\\Pages\\BladePage",
             "identifier": "404",
@@ -3910,6 +3924,15 @@
             "page": {
                 "class": "Hyde\\Support\\Models\\Redirect",
                 "identifier": "json"
+            }
+        },
+        "docs\/index": {
+            "routeKey": "docs\/index",
+            "sourcePath": "docs\/index",
+            "outputPath": "docs\/index.html",
+            "page": {
+                "class": "Hyde\\Support\\Models\\Redirect",
+                "identifier": "docs\/index"
             }
         },
         "404": {
