@@ -23,10 +23,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-       Hyde::kernel()->booting(function (HydeKernel $kernel) {
-           // $kernel->pages()->addPage(tap(new Redirect('posts.html', 'posts/', false), function (Redirect $page) {
-           //     $page->navigation = new NavigationData('', 0, true);
-           // }));
+       Hyde::kernel()->booting(function (HydeKernel $kernel): void {
+            $kernel->pages()->addPage(tap(new Redirect('json.html', '/hyde.json', false), function (Redirect $page): void {
+                $page->navigation = new NavigationData('Json Version', 1000, true);
+            }));
        });
     }
 }
