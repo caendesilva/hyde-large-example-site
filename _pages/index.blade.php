@@ -17,8 +17,7 @@
                 $pages = \Hyde\Hyde::pages();
 
                 $groups = $pages->groupBy(function (\Hyde\Pages\Concerns\HydePage $page) {
-                    $group = $page->navigation->group ?? 'Other';
-                    return $group;
+                    return $page->navigation->group ?? 'Other';
                 });
             ?>
 
